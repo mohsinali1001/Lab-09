@@ -6,6 +6,7 @@ np.random.seed(7)
 readings = np.random.randint(20, 41, size=(6, 3))
 
 print(readings)
+print("Overall hottest reading:", readings.max())
 
 mean_values = readings.mean(axis=0)
 print("Mean per sensor:", mean_values)
