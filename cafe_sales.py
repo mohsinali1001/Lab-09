@@ -20,3 +20,5 @@ print("Revenue per day:", revenue_per_day)
 print("Units sold per item:", units_per_item)
 print("Best day index:", best_day)
 print("Coffee, last two days:", coffee_last_two_days)
+
+print("Total weekly revenue:", revenue.sum())
